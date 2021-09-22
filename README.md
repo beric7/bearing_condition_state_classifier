@@ -1,10 +1,10 @@
 # Bearing Condition State Image Classification
 
 <p align="center">
-    <img src="/figures/bearing_missed_predictions.png" | width=600/>
+    <img src="/figures/bearing_missed_predictions.png" | width=800/>
 </p>
 
-***Figure: These include predictions (P) made by the classifier with the actual label (A) listed next them. These show some of the missed predictions.***
+***Figure: These include actual label (A) and the model predictions (P) made by the classifier. These show some of the missed predictions.***
 
 The four condition state classes in the dataset are:
 ```
@@ -19,7 +19,7 @@ The four condition state classes in the dataset are:
 The bearing condition state classification dataset can be used for auxiliary structural inspection tasks to aid in the assessment of structural damage, and to auto-populate bridge inspection reports. 
 
 ## Results
-We were able to recieve an f1-score of over 86.4% with our trained model. Note that 100% of the predictions were within one condition state of the ground truth labels.  
+We were able to recieve an f1-score of over 86.4% with our trained model. However, note that 100% of the predictions were within one condition state of the ground truth labels.  
 <p align="center">
     <img src="/figures/bearing_results.png" | width=400/>
 </p>
@@ -27,10 +27,10 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Note t
 ## Example Use-case:
 
 <p align="center">
-    <img src="/figures/workflow.png" | width=400/>
+    <img src="/figures/workflow.png" | width=800/>
 </p>
 <p align="center">
-    <img src="/figures/isolation.png" | width=400/>
+    <img src="/figures/isolation.png" | width=800/>
 </p>
 <p align="center">
     <img src="/figures/material and corrosion.png" | width=400/>
