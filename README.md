@@ -33,16 +33,12 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
     <em>Figure: Example workflow of semi-automated inspection reports </em>
 </p>
 
-
-
 <p align="center">
     <img src="/figures/isolation.png" | width=800/>
 </p>
 <p align="center">
-    <figcaption>{{ Figure: Isolation of structural detail and extraction into a sub-image }}</figcaption>
     <em>Figure: Isolation of structural detail and extraction into a sub-image</em>
 </p>
-
 
 <p align="center">
     <img src="/figures/material_and_corrosion.jpg" | width=600/>
