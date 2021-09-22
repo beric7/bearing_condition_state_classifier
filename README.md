@@ -65,6 +65,7 @@ The most important environment configurations are the following:
 - Pillow
 - pandas
 - shutil
+- pip install efficientnet_pytorch
 
 (you will have to download other modules as they present themselves)
 
