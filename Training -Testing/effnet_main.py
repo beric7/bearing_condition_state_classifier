@@ -13,8 +13,8 @@ from effnet_model import Classifier
 
 im_size = 300
 batch_size= 8
-train_data_root = './Train'
-test_data_root = './Test'
+train_data_root = './Train_300x300'
+test_data_root = './Test_300x300'
 viz = True
 
 # load the data

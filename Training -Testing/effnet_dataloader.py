@@ -12,7 +12,7 @@ from torch.utils.data.sampler import SubsetRandomSampler
 import matplotlib.pyplot as plt
 import random
 import torchvision
-from tqdm.autonotebook import tqdm
+from tqdm import tqdm
 
 
 def normalization_parameter(dataloader):
@@ -106,7 +106,7 @@ def data_handler(im_size, batch_size, train_data_root, test_data_root, viz=False
     #data loader
     train_data = torchvision.datasets.ImageFolder(root = train_data_root, transform = train_transforms)
     test_data = torchvision.datasets.ImageFolder(root = test_data_root, transform = test_transforms)
-    dataloaders = data_loader(train_data, test_data, valid_size = 0.05 , batch_size = batch_size)
+    dataloaders = data_loader(train_data, test_data, valid_size = 0.1 , batch_size = batch_size)
     
     #label of classes
     classes = train_data.classes

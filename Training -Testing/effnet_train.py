@@ -84,6 +84,7 @@ def train(model, dataloaders,criterion, loss_var, num_epochs,lr,batch_size,patie
                                                                                                  , running_loss/(j*batch_size),running_corrects.double()/(j*batch_size)))
             epoch_acc = running_corrects.double()/(len(dataloaders[phase])*batch_size)
             epoch_loss = running_loss/(len(dataloaders[phase])*batch_size)
+            torch.save(model.state_dict(), './checkpoint_{epoch}.pt'.format(epoch = epoch))
             #if(phase == 'val'):
             #    earlystop(epoch_loss,model)
 
@@ -91,7 +92,7 @@ def train(model, dataloaders,criterion, loss_var, num_epochs,lr,batch_size,patie
                 losses.append(epoch_loss)
                 acc.append(epoch_acc)
                 
-        if(epoch_loss <= 0.01):
+        if(epoch_loss <= 0.003):
             break
             # print(earlystop.early_stop)
         # if(earlystop.early_stop):
