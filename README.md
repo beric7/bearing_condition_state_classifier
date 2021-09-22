@@ -79,14 +79,17 @@ The most important environment configurations are the following:
 
 1. Clone the repository
 2. Download the :red_circle:[dataset](/access/not_ready.png)
-3. Go into the Training folder
+3. Go into the Training folder of your cloned repository
 4. Create a DATA folder
-5. Copy and paste the Train and Test folders for 512x512 images from the dataset you downloaded into the DATA folder
-6. The DATA folder should have a folder called 'Train' and a folder called 'Test'. Inside each of those folders include the mask and image pairs in their respective folders (Masks, Images). 
-7. If you have set this up correctly then you are now ready to begin.
+5. Copy and paste the Train and Test folders for 300x300 images from the dataset you downloaded into the DATA folder
+6. The DATA folder should have a folder called 'Train' and a folder called 'Test'. Inside each of those folders include the image in their respective folders (1-4). 
+7. If you have set this up correctly then you are now ready to begin. Configure and run the **effnet_main.py**.
 
 ## Training with a custom dataset
 
+1. Determine which EfficientNet you will need for the size of image you are using. For example, we used EfficientNet B3, which accepts image sizes 300x300 pixels. 
+2. Adjust the pre-trained EfficientNet in the **effnet_model.py** file if needed.
+3. Configure and run the **effnet_main.py**.
 
 ## Extracting sub-images from bounding box data
 The bearing dataset was created by extracting all the bounded objects in the [COCO-Bridge-2021+ dataset](/access/not_ready.png). These extracted objects were saved as sub-images to be used for image classification. Here we explain how this process worked so that you can do the same for any dataset or re-create our results. 
