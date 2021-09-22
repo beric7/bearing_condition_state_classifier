@@ -35,6 +35,10 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
 <p align="center">
     <img src="/figures/material and corrosion.png" | width=400/>
 </p>
+<p align="center">
+    <img src="/figures/table.png" | width=400/>
+</p>
+
 
 ## Requirements
 The most important environment configurations are the following:
