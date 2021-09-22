@@ -69,13 +69,10 @@ The most important environment configurations are the following:
 (you will have to download other modules as they present themselves)
 
 ## Evaluating the Trained DeeplabV3+ Model
-- Download the DeeplabV3+ :red_circle:[trained model weights](/access/not_ready.png)
-- Configure ***run_metrics_evaluation.py***
+***WORKING ON THIS SECTION*** - ***COMING SOON***
 
-You will get the f1 score, the jaccard index, and the confusion matrix. We suggest running this in an IDE. 
-  
 ## Visualizing the results from the Trained EfficientNet B3 Model
-
+***WORKING ON THIS SECTION*** - ***COMING SOON***
 
 ## Training with the Bearing Condition State Classification dataset
 
