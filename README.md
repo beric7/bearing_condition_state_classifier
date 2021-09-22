@@ -30,15 +30,29 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
     <img src="/figures/workflow.png" | width=800/>
 </p>
 <p align="center">
+    <em> <strong>Example workflow of semi-automated inspection reports</strong> </em>
+</p>
+
+<p align="center">
     <img src="/figures/isolation.png" | width=800/>
 </p>
 <p align="center">
-    <img src="/figures/material and corrosion.png" | width=400/>
-</p>
-<p align="center">
-    <img src="/figures/table.png" | width=400/>
+    <em><strong>Isolation of structural detail and extraction into a sub-image</strong></em>
 </p>
 
+<p align="center">
+    <img src="/figures/material_and_corrosion.jpg" | width=600/>
+</p>
+<p align="center">
+    <em><strong>Material and Corrosion Semantic Segmentation</strong></em>
+</p>
+
+<p align="center">
+    <img src="/figures/table.jpg" | width=600/>
+</p>
+<p align="center">
+    <em><strong>Sample Inspection Report</strong></em>
+</p>
 
 ## Requirements
 The most important environment configurations are the following:
