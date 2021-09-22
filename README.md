@@ -29,14 +29,17 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
 <p align="center">
     <img src="/figures/workflow.png" | width=800/>
 </p>
+
 <p align="center">
     <img src="/figures/isolation.png" | width=800/>
 </p>
+
 <p align="center">
-    <img src="/figures/material_and_corrosion.png" | width=400/>
+    <img src="/figures/material_and_corrosion.jpg" | width=400/>
 </p>
+
 <p align="center">
-    <img src="/figures/table.png" | width=400/>
+    <img src="/figures/table.jpg" | width=400/>
 </p>
 
 
