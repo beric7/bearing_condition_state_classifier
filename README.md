@@ -28,9 +28,10 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
 
 <p align="center">
     <img src="/figures/workflow.png" | width=800/>
+    Figure: Example workflow of semi-automated inspection reports
 </p>
 
-***Figure: Example workflow of semi-automated inspection reports***
+
 
 <p align="center">
     <img src="/figures/isolation.png" | width=800/>
