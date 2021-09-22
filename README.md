@@ -35,11 +35,11 @@ We were able to recieve an f1-score of over 86.4% with our trained model. Howeve
 </p>
 
 <p align="center">
-    <img src="/figures/material_and_corrosion.jpg" | width=800/>
+    <img src="/figures/material_and_corrosion.jpg" | width=600/>
 </p>
 
 <p align="center">
-    <img src="/figures/table.jpg" | width=800/>
+    <img src="/figures/table.jpg" | width=600/>
 </p>
 
 
