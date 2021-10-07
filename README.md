@@ -111,7 +111,7 @@ The bearing dataset was created by extracting all the bounded objects in the [CO
 ## Citation
 ```
 Structural Material Dataset: 
-Structural Material Model:
+Structural Material Model: Bianchi, Eric; Hebdon, Matthew (2021): Trained Model for the Classification of Bearing Condition States. University Libraries, Virginia Tech. Software. https://doi.org/10.7294/16628698.v1 
 Paper:
 ```
 
