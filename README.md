@@ -14,7 +14,7 @@ The four condition state classes in the dataset are:
 (4) Severe
 ```
 ***Coming soon in November***
-:red_circle:\[[Paper](/access/not_ready.png)\] :red_circle:\[[Dataset](/access/not_ready.png)\] :red_circle:\[[Trained models](/access/not_ready.png)\]
+:red_circle:\[[Paper](/access/not_ready.png)\] :green_circle:\[[Dataset](https://doi.org/10.7294/16624642.v1)\] :green_circle:\[[Trained models](https://doi.org/10.7294/16628698.v1)\]
 
 The bearing condition state classification dataset can be used for auxiliary structural inspection tasks to aid in the assessment of structural damage, and to auto-populate bridge inspection reports. 
 
