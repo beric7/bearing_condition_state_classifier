@@ -111,7 +111,8 @@ The bearing dataset was created by extracting all the bounded objects in the [CO
 ## Citations
 ***Bearing Condition State Dataset:***
 ```
-
+Bianchi, Eric; Hebdon, Matthew (2021): Bearing Condition State Classification Dataset. 
+University Libraries, Virginia Tech. Dataset. https://doi.org/10.7294/16624642.v1 
 ```
 
 ***Bearing Condition State Model:***
