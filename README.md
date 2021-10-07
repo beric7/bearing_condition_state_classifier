@@ -108,11 +108,21 @@ The bearing dataset was created by extracting all the bounded objects in the [CO
 
 4. Once this is complete then you can sort the dataset into Test and Training for each class using the **run_random_sort.py** file. Now you are ready to begin training. 
 
-## Citation
+## Citations
+***Bearing Condition State Dataset:***
 ```
-Structural Material Dataset: 
-Structural Material Model: Bianchi, Eric; Hebdon, Matthew (2021): Trained Model for the Classification of Bearing Condition States. University Libraries, Virginia Tech. Software. https://doi.org/10.7294/16628698.v1 
-Paper:
+
+```
+
+***Bearing Condition State Model:***
+```
+Bianchi, Eric; Hebdon, Matthew (2021): Trained Model for the Classification of Bearing Condition States. 
+University Libraries, Virginia Tech. Software. https://doi.org/10.7294/16628698.v1 
+```
+
+***Paper:***
+```
+
 ```
 
 
