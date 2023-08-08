@@ -13,8 +13,7 @@ The four condition state classes in the dataset are:
 (3) Poor
 (4) Severe
 ```
-***Coming soon in November***
-:red_circle:\[[Paper](/access/not_ready.png)\] :green_circle:\[[Dataset](https://doi.org/10.7294/16624642.v1)\] :green_circle:\[[Trained models](https://doi.org/10.7294/16628698.v1)\]
+:green_circle:\[[Paper](https://doi.org/10.1061/(ASCE)CP.1943-5487.0001045)\] :green_circle:\[[Dataset](https://doi.org/10.7294/16624642.v1)\] :green_circle:\[[Trained models](https://doi.org/10.7294/16628698.v1)\]
 
 The bearing condition state classification dataset can be used for auxiliary structural inspection tasks to aid in the assessment of structural damage, and to auto-populate bridge inspection reports. 
 
@@ -78,7 +77,7 @@ The most important environment configurations are the following:
 ## Training with the Bearing Condition State Classification dataset
 
 1. Clone the repository
-2. Download the :red_circle:[dataset](/access/not_ready.png)
+2. Download the :green_circle:[dataset](https://doi.org/10.7294/16624642.v1)
 3. Go into the Training folder of your cloned repository
 4. Create a DATA folder
 5. Copy and paste the Train and Test folders for 300x300 images from the dataset you downloaded into the DATA folder
@@ -92,13 +91,13 @@ The most important environment configurations are the following:
 3. Configure and run the **effnet_main.py**.
 
 ## Extracting sub-images from bounding box data
-The bearing dataset was created by extracting all the bounded objects in the [COCO-Bridge-2021+ dataset](/access/not_ready.png). These extracted objects were saved as sub-images to be used for image classification. Here we explain how this process worked so that you can do the same for any dataset or re-create our results. 
+The bearing dataset was created by extracting all the bounded objects in the [COCO-Bridge-2021+ dataset](https://doi.org/10.7294/16624495.v1). These extracted objects were saved as sub-images to be used for image classification. Here we explain how this process worked so that you can do the same for any dataset or re-create our results. 
 
 ***WORKING ON THIS SECTION*** - ***COMING SOON***
 
 ## Building a Custom Dataset
 
-0. **If you are planning to extend on the bearing dataset, then please read the annotation guidelines provided by the author in the :red_circle: [bearing dataset](/access/not_ready.png) repository.**
+0. **If you are planning to extend on the bearing dataset, then please read the annotation guidelines provided by the author in the :green_circle: [bearing dataset](https://doi.org/10.7294/16624642.v1) repository.**
 
 1. We suggest that you use jpeg for the RGB image files. Label/Classify images before they are resized. We advised against beginning with images which are already resized. Before resizing the images, if you want to see some statistics on image heights and widths then you can use the **run_histogram.py**. 
 
@@ -122,6 +121,17 @@ University Libraries, Virginia Tech. Software. https://doi.org/10.7294/16628698.
 ```
 
 ***Paper:***
+```
+@article{doi:10.1061/(ASCE)CP.1943-5487.0001045,
+author = {Eric Bianchi  and Matthew Hebdon },
+title = {Development of Extendable Open-Source Structural Inspection Datasets},
+journal = {Journal of Computing in Civil Engineering},
+volume = {36},
+number = {6},
+pages = {04022039},
+year = {2022},
+doi = {10.1061/(ASCE)CP.1943-5487.0001045},
+```
 ```
 
 ```
